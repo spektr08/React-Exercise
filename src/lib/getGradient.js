@@ -4,7 +4,7 @@ const getGradient = (colors) => {
   
     for (const element of words) {
       if (isColor(element)) {
-        result.push(element.toLowerCase() + "-500");
+        result.push(element.toLowerCase());
         if (result.length === 2) break;
       }
     }
